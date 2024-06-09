@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML!</title>
+    <link rel="stylesheet" id="stylesheet" href="../css/element_style.css">
+    <link rel="stylesheet" href="../css/toggle.css">
+</head>
+<body>
+    <input type="checkbox" id="toggle" hidden> 
+    <label for="toggle" class="toggleSwitch">
+        <span class="toggleButton"></span>
+    </label>
+   <header> <h1 class="toptitle"> 이선현의 홈페이지 </h1>
+        <ul>
+            <li>
+                <a class="active" href="홈페이지 입력할것">Home</a>
+            </li>
+            <li class="dropdown">
+                <li> <a href="./learnHTML.html">HTML</a> </li>
+                <li> <a href="./learnCSS.html">CSS</a> </li>
+            </li>
+        </ul>
+   </header>
+   <aside class="list">
+    <h2 style="color : white">목차</h2>
+        <ul>
+      <li><a href="#section1">1.html이란 무엇인가?</a></li>
+      <li><a href="#section2">2. html의 주요 특징</a></li>
+      <li><a href="#section3">3. html의 기본 요소</a></li>
+      <li><a href="#section3_1">(1) &lt;!DOCTYPE html&gt; </a></li>
+      <li><span><a href="#section3_2">(2) &lt;html&gt; </a></span></li>
+      <li><a href="#section3_3">(3) &lt;head&gt; </a></li>
+      <li><a href="#section3_4">(4) &lt;title&gt; </a></li>
+      <li><a href="#section3_5">(5) &lt;body&gt; </a></li>
+      <li><a href="#section3_6">(6) &lt;h1&gt; ~ &lt;h6&gt; </a></li>
+      <li><a href="#section3_7">(7) &lt;p&gt; </a></li>
+      <li><a href="#section3_8">(8) &lt;a&gt; </a></li>
+    </ul>
+  </aside>
+  <article class = "maintext">
+    <section id ="section1">
+    <h1 class = "mainhead">1. html이란 무엇인가? </h1>
+    <p class ="maintext">
+HTML이란 무엇일까요? <br>
+HTML은 HyperText Markup Language의 약자로, 웹 페이지의 구조와 내용을 정의하는 데 사용되는 마크업 언어입니다. 마크업 언어는 텍스트에 특수한 태그를 삽입하여 문서의 구조와 형식을 지정하는 데 사용됩니다.
+HTML은 웹 개발의 기본적인 언어이며, 대부분의 웹 페이지를 만드는 데 사용됩니다. 웹 브라우저는 HTML 코드를 해석하여 사용자에게 웹 페이지를 화면에 표시합니다.
+    </p>
+    </section>
+    <section id ="section2">
+        <h1 class = "mainhead">2. html의 주요 특징 </h1>
+        <p class ="maintext">
+            - 간단하고 배우기 쉬움: HTML은 비교적 간단하고 배우기 쉬운 언어입니다. 기본적인 HTML 코드를 배우는 데는 많은 시간이 걸리지 않습니다.
+        </p>
+        <p class ="maintext">
+            - 표준화된 언어: HTML은 W3C(World Wide Web Consortium)에서 표준화된 언어입니다. 따라서 다양한 웹 브라우저에서 동일하게 해석됩니다.
+        </p>
+        <p class ="maintext">
+            - 다양한 웹 요소 지원: HTML은 제목, 단락, 이미지, 표, 링크 등 다양한 웹 요소를 만드는 데 사용할 수 있습니다.
+        </p>
+        <p class ="maintext">
+            - 기타 언어와 함께 사용 가능: HTML은 CSS, JavaScript와 같은 다른 웹 기술과 함께 사용하여 더욱 풍부하고 동적인 웹 페이지를 만들 수 있습니다.
+        </p>
+        <section id ="section3">
+            <h1 class = "mainhead">3. html의 기본요소 </h1>
+            <p class ="maintext">
+        HTML은 웹 페이지의 구조와 내용을 정의하는 데 사용되는 마크업 언어입니다. 마크업 언어는 텍스트에 특수한 태그를 삽입하여 문서의 구조와 형식을 지정하는 데 사용됩니다. HTML은 다양한 요소로 구성되어 있으며, 각 요소는 웹 페이지의 특정 부분을 나타내거나 기능을 제공합니다.<br>
+        HTML의 기본 요소는 다음과 같습니다.
+        </p>
+        </section>
+        <section id ="section3_1">
+            <h2 class = "mainhead">(1) &lt;!DOCTYPE html&gt; </h2>
+            <p class ="maintext">
+                &lt;!DOCTYPE html&gt; : HTML 문서임을 선언하는 요소입니다. 이 요소는 웹 브라우저에게 해당 문서가 HTML5 문서임을 알려줍니다.
+        </p>
+        </section>
+        <section id ="section3_2">
+            <h2 class = "mainhead">(2) &lt;html&gt; </h2>
+            <p class ="maintext">
+                &lt;html&gt; :  HTML 문서의 루트 요소입니다. 모든 HTML 요소는 html 요소 안에 포함되어야 합니다.
+        </p>
+        </section>
+        <section id ="section3_3">
+            <h2 class = "mainhead">(3) &lt;head&gt; </h2>
+            <p class ="maintext">
+                &lt;head&gt; :  문서의 메타 정보를 포함하는 요소입니다. 문서 제목, 문자 인코딩, 스타일시트 링크 등을 포함합니다.
+        </p>
+        </section>
+        <section id ="section3_4">
+            <h2 class = "mainhead">(4) &lt;title&gt; </h2>
+            <p class ="maintext">
+                &lt;title&gt; :  문서의 제목을 지정하는 요소입니다. 웹 브라우저 타이틀 바에 표시됩니다.
+        </p>
+        </section>
+        <section id ="section3_5">
+            <h2 class = "mainhead">(5) &lt;body&gt; </h2>
+            <p class ="maintext">
+                &lt;body&gt; :  문서의 본문 내용을 포함하는 요소입니다. 사용자가 실제로 웹 페이지에서 볼 수 있는 모든 콘텐츠는 body 요소 안에 작성해야 합니다.
+        </p>
+        </section>
+    </section>
+    <section id ="section3_6">
+        <h2 class = "mainhead">(6) &lt;h1&gt; ~ &lt;h6&gt; </h2>
+        <p class ="maintext">
+            &lt;h1&gt; ~ &lt;h6&gt; :  제목을 나타내는 요소입니다. h1은 가장 큰 제목이고 h6은 가장 작은 제목입니다.
+    </p>
+    </section>
+</section>
+<section id ="section3_7">
+    <h2 class = "mainhead">(7) &lt;p&gt; </h2>
+    <p class ="maintext">
+        &lt;p&gt;  :  단락을 나타내는 요소입니다. 개행을 통해 여러 문장을 작성할 수 있습니다.
+</p>
+</section>
+<section id ="section3_8">
+    <h2 class = "mainhead">(8) &lt;a&gt; </h2>
+    <p class ="maintext">
+        &lt;a&gt;  :  하이퍼링크를 나타내는 요소입니다. href 속성을 사용하여 링크 대상의 URL을 지정합니다. <br><br><br><br> 이 외에도 HTML에는 다양한 요소들이 존재합니다. 위에서 소개된 기본 요소들을 활용하여 웹 페이지의 기본적인 구조를 만들 수 있으며, 더 복잡한 기능을 구현하기 위해서는 추가적인 요소들을 사용해야 합니다.
+</p>
+</section>
+  </article>
+  <script src="../JS/element_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이선현의 페이지</title>
+  <link rel="stylesheet" id="stylesheet" href="./CSS/main_style.css">
+  <link rel="stylesheet" href="./CSS/toggle.css">
+</head>
+<body>
+    <input type="checkbox" id="toggle" hidden> 
+    <label for="toggle" class="toggleSwitch">
+        <span class="toggleButton"></span>
+    </label>
+    <ul>
+        <li>
+            <a class="active" href="홈페이지 입력할것">Home</a>
+        </li>
+        <li class="dropdown">
+            <li> <a href="./html/learnHTML.html">HTML</a> </li>
+            <li> <a href="./html/learnCSS.html">CSS</a> </li>
+        </li>
+    </ul>
+    <div class="content">
+        <div>
+            <h1 class ="element" id="main"> 이선현의 홈페이지에 <br>오신것을 환영합니다!<br><br></h1>
+            <p style="padding-bottom: 100px" class= "element delay-05s" id="main"> 이 홈페이지는 HTML, CSS 등에 관해 설명하고 있습니다! </p>
+        </div>
+        <div class = "element delay-10s exhtml">
+            <h2 class = "exhtml"> HTML 은 무엇인가요? <h2>
+                <p class = "exhtml"> HTML은 HyperText Markup Language의 약자로, 웹 페이지의 구조와 내용을 정의하는 데 사용되는 마크업 언어입니다. 텍스트, 이미지, 동영상 등 다양한 콘텐츠를 웹 페이지에 표시하고 사용자와의 상호 작용을 가능하게 하는 역할을 합니다. </p>
+                <a href="./html/learnHTML.html" class="button buttonH">HTML로 이동</a>
+                <br>
+                        </div>
+            <br>
+            <div class = "element delay-15s excss">
+                <h2 class = "excss"> CSS 는 무엇인가요? <h2>
+                    <p class = "excss"> CSS(Cascading Style Sheets)는 HTML로 작성된 문서의 스타일을 정의하는 데 사용되는 스타일 시트 언어입니다. 텍스트 크기, 색상, 글꼴, 여백, 배치 등 다양한 시각적 요소를 제어하여 웹 페이지의 디자인과 레이아웃을 지정하는 데 중요한 역할을 합니다. </p>
+                    <a href="./html/learnCSS.html" class="button buttonC">CSS로 이동</a>
+                    <br>
+                </div>
+        </div>
+    </div>
+    <footer> <p> 해당 홈페이지는 계속 발전중이며, 새로운 내용이 언제든 추가 될 수 있습니다! </p> <footer>
+    <script src="./JS/main_script.js"></script>
+</body>
+</html>

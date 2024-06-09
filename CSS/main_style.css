@@ -1,0 +1,157 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;  
+  background-color: gray;
+  position: sticky;
+  top:0px;
+  z-index: 10;
+}
+li {
+  display: inline-block;
+}
+li a, .dropbtn {
+  display: inline-block;
+  padding: 14px 16px;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #909090;
+}
+.dropdown-content {
+  display: none; 
+  position: absolute; 
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; 
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} /* dropdown part */
+.button {
+  padding: 15px 25px;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin : 0 auto;
+  display: flex; /* 가로 방향으로 정렬 */
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  width : 200px;
+}
+.buttonH
+{
+  background-color: rgb(95, 237, 52);
+  color: white;
+}
+
+.buttonC
+{
+  background-color: #f44336;
+  color: white;
+}
+body {
+  margin : 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 250, 246);
+  }
+  footer{
+    border-top : 2px solid gray;
+  }
+  .content {
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    h1#main{
+      width : 60%;
+      height: 60%;
+      margin : 0 auto;
+      text-align: center;
+        font-size: 75px;
+    }
+    p#main{
+
+      font-size: 40px;
+      width : 60%;
+      height: 60%;
+      margin : 0 auto;
+      text-align: center;
+  }
+    div.exhtml
+    {
+      margin : 0 auto;
+      border-radius: 30px;
+      width :65%;
+      background-color: rgb(236, 236, 137);
+    }
+    h2.exhtml
+    {
+      padding-top : 30px;
+      text-align: center;
+      font-size : 50px;
+    }
+    p.exhtml
+    {
+      text-align: center;
+      font-size: 30px;
+      width : 80%;
+      margin : 0 auto;
+      padding-bottom : 30px;
+    }
+    div.excss
+    {
+      margin : 0 auto;
+      border-radius: 30px;
+      width :65%;
+      background-color: rgb(236, 236, 137);
+      z-index: 0;
+    }
+    h2.excss
+    {
+      padding-top : 30px;
+      text-align: center;
+      font-size : 50px;
+    }
+    p.excss
+    {
+      text-align: center;
+      font-size: 30px;
+      width : 80%;
+      margin : 0 auto;
+      padding-bottom : 30px;
+    }
+
+    .element {
+      opacity: 0; 
+      transform: translateY(2vw);
+    }
+    .element.animated {
+      opacity: 1;
+      transform: translateY(0);
+      transition: all 0.5s ease-in-out; 
+    }
+    .element.delay-05s.animated {
+      transition-delay: 0.5s;
+    }
+    .element.delay-10s.animated {
+      transition-delay: 1s;
+    }
+    .element.delay-15s.animated {
+      transition-delay: 1.5s;
+    }
+  }
+ 
